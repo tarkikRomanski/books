@@ -15,7 +15,7 @@ if(isset($_GET['render'])) {
     $b = $_GET['timer']+0;
 
     $renders = $_GET['render'];
-    $render = split(' ', $renders);
+    $render = explode(' ', $renders);
     unset($render[count($render)-1]);
     $s = trim($test_arr[4]);
     $x = count($render);
@@ -24,7 +24,7 @@ if(isset($_GET['render'])) {
     $k = 1;
     // перевіряємо вірність тестів
     for ($i=5, $j=0; $i<count($test_arr); $i++, $j++){
-        $test = split('/:i:/',$test_arr[$i]);
+        $test = explode('/:i:/',$test_arr[$i]);
         $lastid = count($test)-1;
         $last = $test[$lastid];
 

@@ -38,7 +38,7 @@ $teacher = trim($test_arr[3]);
         <?php
             setcookie('test', $href);
             for($i=5; $i<count($test_arr); $i++){
-                $test = split('/:i:/', $test_arr[$i]);
+                $test = explode('/:i:/', $test_arr[$i]);
 
                 $test_html = '<div class="span6 offset3 well test">';
                 $test_html .= '<p class="text-left">'.($i-4).'. '.trim($test[0]).'</p>';
