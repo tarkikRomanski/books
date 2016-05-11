@@ -1,0 +1,58 @@
+body {
+}
+
+.result {
+	display: none;
+}
+
+.god {
+	background: #2EAA31
+}
+
+.soso {
+	background: #CDCC3F;
+}
+
+.bad {
+	background: #BF4949;
+}
+
+.result {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-top: 10%;
+}
+
+table {
+	border: 1px solid silver;
+	margin-top: 160px;
+}
+
+@media screen and (max-width: 580px) {
+	table {
+		font-size: 11px;
+	}
+}
+
+thead {
+	text-align: center;
+	cursor: default;
+}
+
+tbody {
+	text-align: left;
+}
+
+tbody tr:hover{
+	background-color: #5B9EB6;
+	color: white;
+}
+
+ .selector_e {
+ 	width: 50%;
+
+ }
+
+ .red {
+ 	border-color : red !important;
+ }

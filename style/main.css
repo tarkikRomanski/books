@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #004D40;
+  background-color: #fff;
+  background-image: url(bg.png);
+}
+
+h1 {
+  color: #F50057;
+}
+
+.adding {
+  display: none;
+}
+
+input {
+  background: rgba(0,0,0,0);
+  border: none;
+  border-bottom: solid 2px #009688;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #004D40;
+}
+
+input:focus {
+  background: #009688;
+  color: #fff;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  padding: 8px;
+  margin: 2px;
+  background: #004D40;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  box-shadow: 2px 2px 5px #212121;
+}
+
+.card {
+  padding: 10px;
+  margin: 5px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #212121;
+}
+
+select {
+  background: #009688;
+  color: #fff;
+  padding: 2px;
+  border: none;
+  /*for WebKit*/
+   -webkit-appearance: none;
+   /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+  cursor: pointer;
+}
+
+select:focus {
+  border: none;
+  box-shadow: 2px 2px 5px #212121;
+}
+
+.headerType {
+  width: 200px;
+  height: auto;
+  font-size: 16px;
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.headerType:hover {
+  background: #263238 !important;
+}
+
+.headerType.active {
+  padding: 11px;
+  border: solid 5px #263238;
+  font-size: 11px;
+}
+
+.booksFlat {
+  color: #fff;
+  padding: 10px;
+  width: 150px;
+  height: 200px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 16px;
+  text-align: center;
+  display: inline-block;
+}
+
+.booksFlat:hover {
+  color: #212121;
+  padding-top: 40px;
+  height: 170px;
+}
+
+ul {
+  position: absolute;
+  left: 0;
+  top: 85px;
+  width: 20%;
+  min-width: 200px;
+  float: left;
+  cursor: pointer;
+}
+
+#chapterContent {
+  position: absolute;
+  top: 70px;
+  left: 30%;
+  width: 65%;
+  min-width: 300px;
+  padding-left: 25px;
+}
+
+img {
+  float: left;
+}
+
+#selectBook {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #D84315;
+}
+
+.chapterNavigation {
+  float: left;
+  width: 40%;
+  cursor: pointer;
+  color: #D84315;
+}
+
+li.active {
+ color: #F50057;
+}
+
+.result {
+  display: none;
+}
+
+.god {
+  background: #2EAA31
+}
+
+.soso {
+  background: #CDCC3F;
+}
+
+.bad {
+  background: #BF4949;
+}
+
+.result {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 10%;
+  color: #fff !important;
+}
+
+.result h1 {
+ color: #fff !important;
+}
